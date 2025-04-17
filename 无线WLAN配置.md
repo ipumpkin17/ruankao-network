@@ -4,9 +4,9 @@
 
 ## 需求描述
 
-1. 配置隧道转发模式，完成 AP 上线，内部办公用户(VLAN101)能通过无线上网。
-2. 访客(VLAN102)能通过无线上网，修改为直接转发模式。
-3. 管理 VLAN100，业务 VLAN101 和 VLAN102，VLAN101 为内部用户提供上网服务 (SSID: wifi_work)，VLAN1O2 为访客提供上网服务(SSID: wifi_guest)。
+1. 配置隧道转发模式，完成 AP 上线，内部办公用户 (VLAN101) 能通过无线上网。
+2. 访客 (VLAN102) 能通过无线上网，修改为直接转发模式。
+3. 管理 VLAN100，业务 VLAN101 和 VLAN102，VLAN101 为内部用户提供上网服务 (SSID: wifi_work)，VLAN1O2 为访客提供上网服务 (SSID: wifi_guest)。
 4. AP 通过 AC DHCP 自动获取 IP 192.168.100.0/24 地址段的地址，用户通过 SW1 DHCP 自动分配对应网段的地址。
 
 ## 一、配置 SW1（VLAN、Vlanif、DHCP）
