@@ -35,7 +35,7 @@
 
 > 配置防火墙接口 IP 地址，并将接口划入对应安全区域，实现区域隔离。
 
-````shell
+```shell
 [Firewall] interface GigabitEthernet 1/0/1 1/0/1
 [Firewall-GigabitEthernet0/0/1] ip address 192.168.1.254 24 # 配置内网接口 IP
 [Firewall-GigabitEthernet0/0/1] quit
@@ -112,4 +112,3 @@
 [Internet-GigabitEthernet0/0/0] ip address 100.1.1.2 24 地址
 [Internet-GigabitEthernet0/0/0] quit
 ```
-````
